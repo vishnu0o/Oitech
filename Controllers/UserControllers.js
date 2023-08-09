@@ -16,13 +16,6 @@ module.exports={
 
         }
     },
-    GetHome2page:async(req,res)=>{
-        try{
-          res.render('Home2')
-        }catch(err){
-
-        }
-    },
     GetHome3page:async(req,res)=>{
         try{
           res.render('Home3')
